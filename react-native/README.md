@@ -10,7 +10,7 @@ We do shopping. Shopping has products. People like products. So, the challenge i
   4. When the Like button is clicked, it should toggle an "active" state. It should also increment/decrement a counter that represents the total number of "likes" for the associated Product.
 
 ## The Rules
-You have one week to complete this challenge. Please and thank you. This is a front-end only task, and dummy data is totally fine.
+This is a front-end only task, and dummy data is totally fine! Please send us your submission within one week.
 
 ## Bonuses (Boni?)
 Completely optional, but if you're feeling ambitious. ¯\\\_(ツ)_/¯

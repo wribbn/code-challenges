@@ -10,7 +10,7 @@ We do shopping. Shopping has products. People like products. So, the challenge i
   4. When the Like button is clicked, it should toggle an "active" state. It should also increment/decrement a counter that represents the total number of "likes" for the associated Product.
 
 ## The Rules
-No need to build a server/DB, this is front-end only and fake data is just fine. Please submit results with one week.
+No need to build a server/DB, this is front-end only and fake data is just fine. Please submit results within one week.
 
 ## Extra Credit
 Not at all necessary, but we won't stop you. =)
