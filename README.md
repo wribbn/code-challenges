@@ -4,6 +4,7 @@ You're probably here because we invited you to take the next step in joining our
 
 Wribbn does all things shopping, and we do it through great code. So if you like to shop and you write great code, check out the subfolders in this repo to see code challenges for their respective positions:
 
+  - [backend](./backend)
   - [react](./react)
   - [react-native](./react-native)
 
