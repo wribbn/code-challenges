@@ -4,19 +4,19 @@ Be the yin to the front-enders' yang. Give power to our awesome client-side expe
 ## Challenge Details
 Wribbn does all things shopping. Not just online, but in the stores too. The challenge is to connect a user with the physical shops they love.
 
-  1. Create a NodeJS server.
+  1. Create a NodeJS server (Express is fine).
   2. Create a Mongo database with three collections (`users`, `products`, and `stores`) defined by Mongoose schemas.
       - `products` belong to stores
       - `users` can follow stores (you don't need to implement this behavior, just the structure)
       - `stores` and `users` have geo-locations
       - Any other meta information is fair game
   3. Populate your database with dummy data.
-  4. Create two functions to aggregate the data in the following way:
-      - Given a `user`, show a list of `product`s from the `store`s they follow.
-      - Given a `user`, show a list of `store`s nearest to their specified location
+  4. Create two routes that aggregate the data in the following way:
+      - '/products/:user_id': Given a `user`, show a list of `product`s from the `store`s they follow.
+      - '/nearby/:user_id': Given a `user`, show a list of `store`s nearest to their specified location.
 
 ## Guidelines
-There's no need to build a front-end interface if you don't want to. Dumping results to the console is just fine.
+There's no need to build a front-end UI. Dumping results in JSON is just fine.
 
 ## The Extra Mile
 100% optional, but if you feel like going big!
