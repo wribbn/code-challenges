@@ -6,9 +6,9 @@ Wribbn does all things shopping. Not just online, but in the stores too. The cha
 
   1. Create a NodeJS server (Express is fine).
   2. Create a Mongo database with three collections (`users`, `products`, and `stores`) defined by Mongoose schemas.
-      - `products` belong to stores
-      - `users` can follow stores (you don't need to implement this behavior, just the structure)
-      - `stores` and `users` have geo-locations
+      - `products` belong to a store (one-to-many store-to-products)
+      - `users` can follow stores (you don't need to implement this behavior, just the data structure)
+      - `stores` and `users` each have a geo-location
       - Any other meta information is fair game
   3. Populate your database with dummy data.
   4. Create two routes that aggregate the data in the following way:
